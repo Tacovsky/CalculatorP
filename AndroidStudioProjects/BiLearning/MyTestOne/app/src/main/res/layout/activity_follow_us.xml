@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="cl.fundacionprotesis3d.mytestone.FollowUsActivity">
+
+    <TextView
+        android:id="@+id/phoneTV"
+        android:text="+56 9 49318215"
+        android:gravity="center"
+        android:drawableLeft="@mipmap/ic_phone_black_24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/linkedinTV"
+        android:text="https://www.linkedin.com/company-beta/10643037/"
+        android:gravity="center"
+        android:drawableLeft="@mipmap/ic_linkedin_black_24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/facebookTv"
+        android:text="https://www.facebook.com/fundacionprotesis3d/"
+        android:gravity="center"
+        android:drawableLeft="@mipmap/icons_facebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

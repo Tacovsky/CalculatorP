@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="cl.fundacionprotesis3d.mytestone.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@android:color/white">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#757575"
+            android:textSize="20dp"
+            android:text="QUIENES SOMOS"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="8dp"
+            android:text=""/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#757575"
+            android:textSize="12dp"
+            android:text="Somos una fundación chilena sin fines de lucro, dedicada a mejorar la calidad de vida de las personas que necesiten de prótesis, sin distinción, enfatizando en su inclusión a la sociedad y complementando sus capacidades motoras, a través de la elaboración personalizada y eficiente de prótesis adaptables y de cero costo para los beneficiarios."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:text=""/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#757575"
+            android:textSize="12dp"
+            android:text="Nuestro compromiso es entregar un servicio integral duradero que empieza desde la llegada del beneficiario a la organización, continua con la entrega de prótesis y se mantiene a través del seguimiento de los casos y las reparaciones oportunas."/>
+
+        <Button
+            android:id="@+id/supportBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apóyanos"/>
+
+        <Button
+            android:id="@+id/contactBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contáctanos"/>
+
+    </LinearLayout>
+
+
+
+</android.support.v4.widget.NestedScrollView>

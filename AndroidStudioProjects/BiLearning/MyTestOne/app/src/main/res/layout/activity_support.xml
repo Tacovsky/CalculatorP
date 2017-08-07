@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cl.fundacionprotesis3d.mytestone.SupportActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:text="ÚNETE A NUESTRA CAUSA"/>
+
+    <fragment
+        android:id="@+id/joinFragment"
+        android:name="cl.fundacionprotesis3d.mytestone.JoinFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:text="DONA Y COLABORA A NUESTRA CAUSA"/>
+
+    <fragment
+        android:id="@+id/donateFragment"
+        android:name="cl.fundacionprotesis3d.mytestone.DonateFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
